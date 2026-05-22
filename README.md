@@ -8,7 +8,9 @@
   <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly-8b5cf6?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm AI"/>
   <img src="https://img.shields.io/badge/Privacy-100%25_Client--side-10b981?style=for-the-badge&logo=shield&logoColor=white" alt="100% Client-Side Privacy"/>
   <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite"/>
-  <img src="https://img.shields.io/badge/Deploy-Vercel_Free-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Ready"/>
+  <a href="https://contour-jmlq86cmo-anuj-9009s-projects.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-Active-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
 </p>
 
 ---
@@ -18,6 +20,10 @@
   <p>
     Contour brings high-end magazine-cover layouts straight to your web browser. Upload an image, watch our local AI extract your subject, and type text that dynamically flows around the silhouette—entirely inside your browser. No data ever leaves your device.
   </p>
+  <br/>
+  <a href="https://contour-jmlq86cmo-anuj-9009s-projects.vercel.app" target="_blank" style="text-decoration: none;">
+    <strong>🚀 Try the Live Application &rarr;</strong>
+  </a>
 </div>
 
 <br/>
