@@ -99,54 +99,11 @@ Open your browser to `http://localhost:5173` and start creating.
 
 ---
 
-## ⚡ Deployment: Instant Launch to the Masses
+## 💡 Inspiration & Credits
 
-Contour is a static application, meaning it has zero backend servers to maintain. You can deploy it completely free to a global CDN.
+Contour's line-wrapping and paragraph typesetting engine was inspired by the pioneering work in the [`@chenglou/pretext`](https://github.com/chenglou/pretext) repository. 
 
-<details>
-<summary><b>📐 Option 1: Vercel Web Dashboard (Recommended - 3 Clicks)</b></summary>
-<br>
-
-This is the easiest path for CI/CD auto-deployments.
-1. Head over to [Vercel](https://vercel.com) and log in with your GitHub account.
-2. Click **Add New** > **Project** and select this `contour` repository.
-3. Vercel will automatically identify **Vite** as the framework. Click **Deploy**.
-4. *Done!* Every time you push a git commit to your `main` branch, Vercel will automatically build and publish your updates.
-</details>
-
-<details>
-<summary><b>⚡ Option 2: Local Vercel CLI</b></summary>
-<br>
-
-Deploy directly from your terminal using Vercel's developer tools:
-```bash
-# Install the Vercel developer tools globally
-npm install -g vercel
-
-# Run a quick, interactive deployment
-vercel
-
-# Push the build directly to production
-vercel --prod
-```
-</details>
-
-<details>
-<summary><b>🔥 Option 3: Firebase Hosting</b></summary>
-<br>
-
-Deploy to Google's Global SSD-backed CDN:
-```bash
-# Install tools
-npm install -g firebase-tools
-
-# Initialise your host settings
-firebase init hosting
-
-# Deploy live!
-firebase deploy --only hosting
-```
-</details>
+Pretext demonstrated that dynamic, browser-native typography wrapping around arbitrary shapes is possible using clean, greedy mathematical layouts rather than relying on heavy graphic editing suites. Contour adapts and extends these core design paradigms for modern React + TypeScript applications.
 
 ---
 
