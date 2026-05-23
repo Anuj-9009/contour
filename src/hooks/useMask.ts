@@ -12,7 +12,11 @@ export function useMask({ setRowBounds, setAppState }: Props) {
   const foregroundRef = useRef<HTMLImageElement | null>(null)
   const maskDimensionsRef = useRef<{ width: number; height: number }>({ width: 0, height: 0 })
 
-  const processMask = useCallback(async (imageUrl: string) => {
+  const processMask = useCallback(async (
+    imageUrl: string,
+    enableGpu: boolean = true,
+    aiModel: 'isnet_fp16' | 'isnet_quint8' = 'isnet_fp16'
+  ) => {
     try {
       setStage({ label: 'Loading AI model…', progress: 10 })
 
@@ -21,16 +25,50 @@ export function useMask({ setRowBounds, setAppState }: Props) {
 
       setStage({ label: 'Detecting subject…', progress: 30 })
 
-      const blob = await removeBackground(imageUrl, {
-        progress: (key: string, current: number, total: number) => {
-          const pct = total > 0 ? Math.round((current / total) * 100) : 0
-          if (key.includes('fetch')) {
-            setStage({ label: 'Downloading model…', progress: 10 + pct * 0.2 })
-          } else if (key.includes('inference')) {
-            setStage({ label: 'Analysing image…', progress: 30 + pct * 0.5 })
-          }
-        },
-      })
+      let activeDevice: 'gpu' | 'cpu' = enableGpu ? 'gpu' : 'cpu'
+      let blob: Blob
+      
+      try {
+        const maskPromise = removeBackground(imageUrl, {
+          model: aiModel,
+          device: activeDevice,
+          progress: (key: string, current: number, total: number) => {
+            const pct = total > 0 ? Math.round((current / total) * 100) : 0
+            if (key.includes('fetch')) {
+              setStage({ label: 'Downloading model…', progress: 10 + pct * 0.2 })
+            } else if (key.includes('inference')) {
+              setStage({ label: 'Analysing image…', progress: 30 + pct * 0.5 })
+            }
+          },
+        })
+
+        const timeoutPromise = new Promise<never>((_, reject) => {
+          setTimeout(() => reject(new Error('GPU Processing Timeout')), 8000)
+        })
+
+        blob = await Promise.race([maskPromise, timeoutPromise])
+      } catch (err: any) {
+        console.warn('GPU Processing failed or timed out, falling back to CPU:', err)
+        if (activeDevice === 'gpu') {
+          activeDevice = 'cpu'
+          setStage({ label: 'GPU failed. Retrying on CPU…', progress: 20 })
+          
+          blob = await removeBackground(imageUrl, {
+            model: aiModel,
+            device: 'cpu',
+            progress: (key: string, current: number, total: number) => {
+              const pct = total > 0 ? Math.round((current / total) * 100) : 0
+              if (key.includes('fetch')) {
+                setStage({ label: 'Downloading model (CPU fallback)…', progress: 10 + pct * 0.2 })
+              } else if (key.includes('inference')) {
+                setStage({ label: 'Analysing image (CPU fallback)…', progress: 30 + pct * 0.5 })
+              }
+            },
+          })
+        } else {
+          throw err
+        }
+      }
 
       setStage({ label: 'Extracting silhouette…', progress: 85 })
 

@@ -1,115 +1,144 @@
-# <p align="center"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23a78bfa'/%3E%3Cstop offset='100%25' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Cpath d='M25 70C25 50 38 30 50 30C62 30 75 50 75 70' stroke='white' stroke-width='7' stroke-linecap='round' fill='none'/%3E%3Cpath d='M35 65C35 52 42.5 38 50 38C57.5 38 65 52 65 65' stroke='white' stroke-width='4' stroke-linecap='round' fill='none' opacity='0.6'/%3E%3Ccircle cx='50' cy='30' r='4' fill='white'/%3E%3C/svg%3E" width="100" height="100" alt="Contour Logo"/><br>C O N T O U R</p>
+# <p align="center"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230f62fe'/%3E%3Cstop offset='100%25' stop-color='%2300f2fe'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Cpath d='M25 70C25 50 38 30 50 30C62 30 75 50 75 70' stroke='white' stroke-width='7' stroke-linecap='round' fill='none'/%3E%3Cpath d='M35 65C35 52 42.5 38 50 38C57.5 38 65 52 65 65' stroke='white' stroke-width='4' stroke-linecap='round' fill='none' opacity='0.6'/%3E%3Ccircle cx='50' cy='30' r='4' fill='white'/%3E%3C/svg%3E" width="100" height="100" alt="Contour Logo"/><br>C O N T O U R &nbsp; v2.0</p>
 
 <p align="center">
-  <strong>An elegant, browser-based typography engine that wraps text tightly around your photo's subject in real-time.</strong>
+  <strong>The Ultimate Client-Side Kinetic Video & Photo Typography Workspace</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly-8b5cf6?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm AI"/>
-  <img src="https://img.shields.io/badge/Privacy-100%25_Client--side-10b981?style=for-the-badge&logo=shield&logoColor=white" alt="100% Client-Side Privacy"/>
+  <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly_%26_WebGPU-8b5cf6?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm/WebGPU AI"/>
+  <img src="https://img.shields.io/badge/Privacy-100%25_Offline_Sandbox-10b981?style=for-the-badge&logo=shield&logoColor=white" alt="100% Client-Side Privacy"/>
   <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite"/>
-  <a href="https://contour-jmlq86cmo-anuj-9009s-projects.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-Active-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  <a href="https://github.com/Anuj-9009/contour/tree/v1-classic" target="_blank">
+    <img src="https://img.shields.io/badge/Version_1.0-Archived_Branch-ff9800?style=for-the-badge&logo=git&logoColor=white" alt="Version 1.0 Branch"/>
   </a>
 </p>
 
 ---
 
 <div align="center">
-  <h3>✨ See the Flow. Craft the Canvas. ✨</h3>
+  <h3>✨ Kinetic Canvas. 3D Subject Depth. Zero-Server Privacy. ✨</h3>
   <p>
-    Contour brings high-end magazine-cover layouts straight to your web browser. Upload an image, watch our local AI extract your subject, and type text that dynamically flows around the silhouette—entirely inside your browser. No data ever leaves your device.
+    <strong>Contour v2.0 (Kinetic Azure Expansion)</strong> scales our browser-based subject typography engine into a fully animated video typesetting studio. Transcribe vocals using client-side AI, sync text to background beats with a tapping console, and wrap lyrics tightly around moving subject curves. All rendering, speech-to-text, and video compiling runs <strong>100% locally in your browser sandbox</strong>.
   </p>
   <br/>
-  <a href="https://contour-jmlq86cmo-anuj-9009s-projects.vercel.app" target="_blank" style="text-decoration: none;">
-    <strong>🚀 Try the Live Application &rarr;</strong>
-  </a>
 </div>
-
-<br/>
-
-## 🎯 Features at a Glance
-
-<table align="center" style="width: 100%; border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td width="50%" style="padding: 15px; border: none; vertical-align: top;">
-      <h3>🧠 Local subject extraction</h3>
-      <p>Powered by <code>@imgly/background-removal</code> running ONNX models in WebAssembly. Silhouettes are extracted fully client-side in under 3 seconds.</p>
-    </td>
-    <td width="50%" style="padding: 15px; border: none; vertical-align: top;">
-      <h3>🖋️ Custom Greedy Line-Breaker</h3>
-      <p>A high-performance paragraph scanner that measures font geometry row-by-row to wrap text tightly and cleanly around subjects.</p>
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td width="50%" style="padding: 15px; border: none; vertical-align: top;">
-      <h3>🎨 Carbon Soft Touch Design</h3>
-      <p>A premium minimal interface. Built with micro-animations, custom HSL range sliders, dynamic focus rings, and soft glassmorphism.</p>
-    </td>
-    <td width="50%" style="padding: 15px; border: none; vertical-align: top;">
-      <h3>🎭 3D Depth layering</h3>
-      <p>Place your subject dynamically <em>in front</em> of your text layer while keeping the original image background intact for a premium 3D composition.</p>
-    </td>
-  </tr>
-</table>
 
 ---
 
-## 🚀 Interactive How-It-Works Flowchart
+## ⚡ Key Highlights of the v2.0 Azure Expansion
 
-Here's how Contour performs local computer vision and custom typesetting in real-time under the hood:
+### 🎭 Concurrency-Safe Video subject Isolation
+* **Parallel-Seeking Extraction**: Spawns 3 parallel offscreen video elements to seek and grab raw frame `ImageData` concurrently in under 2 seconds. Video elements are cleared immediately to free up browser resources.
+* **Sequential AI Inference**: Loops through cached frames sequentially to evaluate subject silhouettes. This completely eliminates resource thrashing, memory fragmentation, and silent WebGPU thread locks in the shared ONNX Runtime context, guaranteeing 100% stability.
+* **Resilient CPU Fallback**: WebGPU and WebAssembly initialization are wrapped in `Promise.race` timeout races (7s for video, 8s for static photos). If the browser context fails or compiles silently freeze due to driver incompatibilities, the engine falls back to CPU processing seamlessly without interrupting the user.
+
+### 🌀 Alphabetic In-Place Twinkling Matrix Backdrop
+* **Pixel-Perfect Exclusion Curves**: Replaces rectangular bounding slabs with dynamic canvas alpha mapping. The text layers are pre-rendered onto a hidden offscreen canvas to obtain a high-fidelity alpha map. Characters are sampled in a 9-point radial neighborhood to form a tight `8px` contour halo that perfectly wraps around individual letter shapes!
+* **In-Place Twinkling**: Refactors spatial math to avoid sliding horizontal movement. Every character stays locked in its grid coordinate and twinkles independently at high speed.
+* **Alphabet-Only**: Restricted character sets strictly to upper and lowercase letters (`A-Z`, `a-z`) for a highly polished editorial aesthetic.
+
+### 🎤 Timeline & Speech-to-Text syncing Console
+* **Offline AI Transcribing**: Integrates local `Transformers.js` Whisper-Tiny ASR. Resamples uploaded audio tracks to 16kHz mono Float32 PCM inside the browser, and transcribes timestamps completely offline.
+* **Tactile Spacebar Beat Tapper**: Paste plain text and tap your spacebar to stamp current millisecond timing offsets dynamically during playback.
+* **LRC Timing File Ingestion**: Features an upgraded, BOM-safe parser that handles UTF-8 Byte Order Marks, variable millisecond padded brackets (`[mm:ss.xx]`, `[mm:ss.xxx]`), and supports empty lines to clear out active lyrics during instrumental breaks.
+
+### 💾 Lossless WebAssembly Export
+* Compiles your projects directly to MP4 using `ffmpeg.wasm` with custom aspect crops (`1:1`, `4:5`, `9:16`), customizable bitrates, and live estimated output file size indicators. Includes an automatic client-side stream capture fallback.
+
+---
+
+## 📊 Dual-Mode Ingestion Pipeline Architecture
+
+Our typesetter combines local WebAssembly machine learning with custom row-fitting greedy typesetting algorithms to keep all processes 100% client-side:
 
 ```mermaid
-graph TD
-    A[🖼️ User Uploads Image] --> B[🧠 WebAssembly Model Loads]
-    B --> C[✂️ Subject Silhouette Extracted]
-    C --> D[🔍 Scan Alpha Channels Row-by-Row]
-    D --> E[📐 Calculate Pixel Boundaries]
-    E --> F[🖋️ Greedy Typesetter Fits Text]
-    F --> G[🎨 Canvas Composites Layers]
-    G --> H[💾 Instant High-Res Export]
+flowchart TD
+    A["Upload Ingestion (Dropzone)"] -->|Photo / HEIC| B["Classic Photo Mode"]
+    A -->|MP4 / MOV| C["Synced Video Mode"]
     
-    style A fill:#f3f4f6,stroke:#9ca3af,stroke-width:2px
-    style C fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
-    style F fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px
-    style H fill:#d1fae5,stroke:#059669,stroke-width:2px
+    subgraph Photo Processing
+        B --> D["@imgly/background-removal\n(ONNX subject mask)"]
+        D --> E["Wrapping boundary calculation\n(Inner Padding + Subject Offset)"]
+        E --> F["Static text flow wrapping"]
+      style D fill:#ede9fe,stroke:#8b5cf6,stroke-width:2px
+    end
+    
+    subgraph Video Processing
+        C --> G["Video element frame extraction\n(15 FPS downscaled decoder)"]
+        G --> H["Client-side frame segmenter\n(5 FPS sampling + quint8 model)"]
+        H --> I["Linear RowBounds interpolation\n(Reconstructs full 15 FPS bounds)"]
+        H --> J["RLE Mask propagation\n(Compreses masks < 15MB RAM)"]
+        
+        C --> K["Audio vocal extraction & resampling\n(16kHz mono Float32 PCM)"]
+        K --> L["Three Lyric Sync Channels"]
+        
+        subgraph Lyric Sync Channels
+            L -->|Option 1| M["Direct LRC upload & parsing"]
+            L -->|Option 2| N["Interactive Spacebar Beat Tapper"]
+            L -->|Option 3| O["Offline local AI Whisper ASR"]
+        end
+      style H fill:#e0f2fe,stroke:#0284c7,stroke-width:2px
+      style O fill:#d1fae5,stroke:#059669,stroke-width:2px
+    end
+    
+    F --> P["Canvas preview & 3D foreground compositor"]
+    I & J --> P
+    M & N & O --> P
+    
+    P --> Q["Unified Exporter (ExportButton)"]
+    Q --> R["WASM H.264 compile + audio mux\n(FFmpeg.wasm / Fallback MediaRecorder)"]
+    R --> S["Lossless output MP4 / PNG"]
 ```
 
 ---
 
-## 💻 Get Started Locally
+## 💻 Local Development Setup
 
-Get a local copy running in less than a minute!
+Clone the project and start creating in less than a minute!
 
 ```bash
-# Clone this repository
+# 1. Clone this repository
 git clone https://github.com/Anuj-9009/contour.git
 
-# Navigate into the project directory
+# 2. Navigate into the project folder
 cd contour
 
-# Install dependencies
+# 3. Install NPM dependencies
 npm install
 
-# Launch Vite dev server
+# 4. Launch Vite development server
 npm run dev
 ```
 
-Open your browser to `http://localhost:5173` and start creating.
+Open **[http://localhost:5173](http://localhost:5173)** in your browser!
 
 ---
 
-## 💡 Inspiration & Credits
+## 🗂️ Version 1.0 Preservation (Classic Photo Mode)
 
-Contour's line-wrapping and paragraph typesetting engine was inspired by the pioneering work in the [`@chenglou/pretext`](https://github.com/chenglou/pretext) repository. 
+We have fully archived the original, plain-photo **Version 1.0** release of Contour to make sure it is completely safe and accessible. You can access or branch from the classic photo edition at any time via:
 
-Pretext demonstrated that dynamic, browser-native typography wrapping around arbitrary shapes is possible using clean, greedy mathematical layouts rather than relying on heavy graphic editing suites. Contour adapts and extends these core design paradigms for modern React + TypeScript applications.
+* **GitHub Branch**: [`v1-classic`](https://github.com/Anuj-9009/contour/tree/v1-classic)
+* **GitHub Release Tag**: [`v1.0.0`](https://github.com/Anuj-9009/contour/releases/tag/v1.0.0)
+
+To check out the classic version locally:
+```bash
+git checkout v1-classic
+```
 
 ---
 
-## 🛡️ Privacy Guarantee
+## 💡 Credit & Deep Inspiration: Pretext
 
-Your photos never leave your device. Contour uses state-of-the-art WebAssembly compilers to run advanced AI models completely in the browser sandbox. Because we do not use a backend API, your media remains 100% private, local, and secure.
+Contour's custom row-fitting greedy typography wrapped layouts were heavily inspired by the pioneering typesetting logic in the [**`@chenglou/pretext`**](https://github.com/chenglou/pretext) repository.
+
+Pretext proved that browser-native editorial wrapping around complex subject contours is possible by scanning alpha boundaries and using custom, greedy mathematical line-breaking models. Contour builds upon this brilliant layout model, extending it for dynamic timeline synchronizations, 3D compositing overlays, in-place matrix warp grids, and client-side neural network acceleration. We owe a huge debt of gratitude to the original Pretext codebase for paving the way!
+
+---
+
+## 🛡️ Privacy Sandboxing Guarantee
+
+Contour uses advanced client-side WebAssembly compilers and local machine learning models (Whisper-ASR, Isnet-Segmentation) running in the secure offline browser sandbox. No pictures, videos, or audio tracks are ever uploaded or transmitted to external servers. Your creative assets remain **100% private, secure, and under your control**.
 
 ---
 
