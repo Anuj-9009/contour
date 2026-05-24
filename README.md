@@ -1,15 +1,21 @@
+<!-- Header Block -->
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Type_design_icon.svg" width="80" alt="Logo"/>
-  <h1>Contour</h1>
-  <p><strong>Browser-based creative text layout tool. Flow text around subjects with local AI.</strong></p>
+  <br />
+  <img src="assets/header.svg" width="100%" alt="banner">
 
   <p>
-    <a href="#features">Features</a> •
-    <a href="#how-it-works">How It Works</a> •
-    <a href="#running-locally">Local Setup</a> •
-    <a href="#deployment">Deployment</a>
+    <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly-0f62fe?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm" />
+    <img src="https://img.shields.io/badge/Privacy-100%25_Offline_Sandbox-00f2fe?style=for-the-badge&logo=shield&logoColor=white" alt="Client Privacy" />
+    <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-0f62fe?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite" />
+  </p>
+  
+  <p>
+    Contour v1-classic is a browser-based creative text layout tool that allows you to flow text beautifully around visual subjects completely offline using a local AI sandbox.
   </p>
 </div>
+
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(15, 98, 254, 0), rgba(15, 98, 254, 0.4), rgba(15, 98, 254, 0));" />
+
 
 <br />
 
@@ -82,5 +88,9 @@ Alternatively, you can connect your GitHub repository directly to Vercel via the
 ---
 
 <div align="center" style="margin-top: 40px;">
-  <img src="././assets/footer.svg" width="100%" alt="footer">
+  <img src="assets/footer.svg" width="100%" alt="footer">
 </div>
+<p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; text-align: center;">
+  built by ANUJ with ❤️ while frank ocean's 'Novacane' played on repeat
+</p>
+
