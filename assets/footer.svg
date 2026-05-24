@@ -1,0 +1,24 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 8px;">
+    <style>
+      .dream-pulse {
+        stroke: #0f62fe;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        animation: driftPulse 4s infinite ease-in-out alternate;
+      }
+      .dream-glow {
+        animation: glowPulse 2s infinite ease-in-out alternate;
+      }
+      @keyframes driftPulse {
+        0% { stroke-dasharray: 4 12; stroke-dashoffset: 0; }
+        100% { stroke-dasharray: 12 4; stroke-dashoffset: 24; }
+      }
+      @keyframes glowPulse {
+        0% { filter: drop-shadow(0 0 1px #0f62fe); opacity: 0.6; }
+        100% { filter: drop-shadow(0 0 6px #00f2fe); opacity: 1; }
+      }
+    </style>
+    <!-- Dreamy Waveform Path -->
+    <path class="dream-pulse" d="M10,20 Q30,5 50,20 T90,20 T130,20 T170,20" />
+    <circle class="dream-glow" cx="90" cy="20" r="4" fill="#00f2fe" />
+  </svg>

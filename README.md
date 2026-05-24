@@ -2,46 +2,7 @@
 <div align="center">
   <br />
   <!-- Glowing Animated Azure Banner (Pure Vector CSS SVG) -->
-  <svg width="100%" height="160" viewBox="0 0 800 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: #0b111e; border-radius: 24px; border: 1px solid rgba(15, 98, 254, 0.25);">
-    <style>
-      .text-title {
-        font-family: 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
-        font-weight: 800;
-        font-size: 44px;
-        fill: url(#azureGradient);
-        filter: drop-shadow(0px 10px 15px rgba(15, 98, 254, 0.35));
-      }
-      .text-subtitle {
-        font-family: 'Inter', system-ui, sans-serif;
-        font-weight: 500;
-        font-size: 13px;
-        fill: #3b82f6;
-        letter-spacing: 0.25em;
-      }
-      .glow-azure {
-        animation: floatAzure 6s ease-in-out infinite alternate;
-      }
-      @keyframes floatAzure {
-        0% { transform: translate(0px, 0px) scale(1); filter: blur(28px); opacity: 0.4; }
-        100% { transform: translate(25px, 10px) scale(1.15); filter: blur(35px); opacity: 0.6; }
-      }
-    </style>
-    <!-- Background Neon Blobs -->
-    <circle class="glow-azure" cx="240" cy="80" r="60" fill="#0f62fe" />
-    <circle class="glow-azure" cx="560" cy="80" r="50" fill="#00f2fe" style="animation-delay: -3s;" />
-    
-    <!-- Title Text -->
-    <text x="50%" y="80" dominant-baseline="middle" text-anchor="middle" class="text-title">C O N T O U R</text>
-    <text x="50%" y="120" dominant-baseline="middle" text-anchor="middle" class="text-subtitle">KINETIC VIDEO & TYPOGRAPHY WORKSPACE</text>
-    
-    <defs>
-      <linearGradient id="azureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#0f62fe" />
-        <stop offset="50%" stop-color="#00f2fe" />
-        <stop offset="100%" stop-color="#0f62fe" />
-      </linearGradient>
-    </defs>
-  </svg>
+  <img src="assets/banner.svg" width="100%" alt="banner">
 
   <p>
     <br />
@@ -61,51 +22,7 @@
 <div align="center">
   <h3>🌀 Interactive Subject-Contour Wrapping Grid</h3>
   <br />
-  <svg width="640" height="150" viewBox="0 0 640 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: #0b111e; border-radius: 20px; border: 1px solid rgba(15,98,254,0.3); box-shadow: 0 10px 30px rgba(15,98,254,0.15);">
-    <style>
-      .subject-curve {
-        stroke: #0f62fe;
-        stroke-width: 2.5;
-        stroke-dasharray: 400;
-        stroke-dashoffset: 400;
-        animation: drawCurve 3s forwards ease-in-out infinite alternate;
-      }
-      .kinetic-char {
-        font-family: 'Sora', sans-serif;
-        font-size: 14px;
-        font-weight: 800;
-        fill: #3b82f6;
-        opacity: 0.3;
-        animation: twinkleChar 2s infinite alternate ease-in-out;
-      }
-      @keyframes drawCurve {
-        to { stroke-dashoffset: 0; filter: drop-shadow(0 0 6px #00f2fe); }
-      }
-      @keyframes twinkleChar {
-        0% { opacity: 0.25; fill: #3b82f6; }
-        100% { opacity: 0.95; fill: #00f2fe; filter: drop-shadow(0 0 4px #00f2fe); }
-      }
-    </style>
-
-    <!-- Moving Subject Silhouette Mock -->
-    <path class="subject-curve" d="M 220,10 C 260,50 280,100 320,140" />
-    <path class="subject-curve" d="M 420,10 C 380,50 360,100 320,140" style="animation-delay: -1.5s;" />
-
-    <!-- Twinkling Typography Grid Wrapping Around curve -->
-    <text x="50" y="30" class="kinetic-char">K I N E T I C</text>
-    <text x="50" y="55" class="kinetic-char" style="animation-delay: -0.3s;">T Y P O G R A P H Y</text>
-    <text x="50" y="80" class="kinetic-char" style="animation-delay: -0.6s;">E N G I N E</text>
-    <text x="50" y="105" class="kinetic-char" style="animation-delay: -0.9s;">V 2 . 0</text>
-
-    <text x="450" y="30" class="kinetic-char" style="animation-delay: -0.2s;">S U B J E C T</text>
-    <text x="430" y="55" class="kinetic-char" style="animation-delay: -0.5s;">I S O L A T I O N</text>
-    <text x="440" y="80" class="kinetic-char" style="animation-delay: -0.8s;">C L I E N T</text>
-    <text x="460" y="105" class="kinetic-char" style="animation-delay: -1.1s;">S A N D B O X</text>
-
-    <!-- Core Sweep -->
-    <circle cx="320" cy="75" r="4" fill="#00f2fe" filter="drop-shadow(0 0 6px #00f2fe)" />
-    <text x="320" y="130" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9px" fill="rgba(59, 130, 246, 0.6)">BEAT-SYNCED FOREGROUND RENDERER ACTIVE</text>
-  </svg>
+  <img src="assets/visualizer.svg" width="640" alt="visualizer">
 </div>
 
 <br />
@@ -209,30 +126,7 @@ Contour uses advanced client-side WebAssembly compilers and local machine learni
 
 <div align="center" style="background: radial-gradient(circle, rgba(15,98,254,0.1) 0%, transparent 80%); padding: 28px; border-radius: 20px;">
   <!-- Dreaming Curve / Typography Flow (CSS SVG) -->
-  <svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 8px;">
-    <style>
-      .dream-pulse {
-        stroke: #0f62fe;
-        stroke-width: 1.5;
-        stroke-linecap: round;
-        animation: driftPulse 4s infinite ease-in-out alternate;
-      }
-      .dream-glow {
-        animation: glowPulse 2s infinite ease-in-out alternate;
-      }
-      @keyframes driftPulse {
-        0% { stroke-dasharray: 4 12; stroke-dashoffset: 0; }
-        100% { stroke-dasharray: 12 4; stroke-dashoffset: 24; }
-      }
-      @keyframes glowPulse {
-        0% { filter: drop-shadow(0 0 1px #0f62fe); opacity: 0.6; }
-        100% { filter: drop-shadow(0 0 6px #00f2fe); opacity: 1; }
-      }
-    </style>
-    <!-- Dreamy Waveform Path -->
-    <path class="dream-pulse" d="M10,20 Q30,5 50,20 T90,20 T130,20 T170,20" />
-    <circle class="dream-glow" cx="90" cy="20" r="4" fill="#00f2fe" />
-  </svg>
+  <img src="assets/footer.svg" width="180" alt="footer">
   
   <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; letter-spacing: 0.05em;">
     built by anuj with ❤️ while frank ocean's "Novacane" played on repeat
