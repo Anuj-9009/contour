@@ -1,18 +1,10 @@
 <!-- Header Block -->
 <div align="center">
   <br />
-  <!-- Glowing Animated Azure Banner (Pure Vector CSS SVG) -->
-  <img src="assets/header.svg" width="100%" alt="banner">
-
-  <p>
-    <br />
-    <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly-0f62fe?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm" />
-    <img src="https://img.shields.io/badge/Privacy-100%25_Offline_Sandbox-00f2fe?style=for-the-badge&logo=shield&logoColor=white" alt="Client Privacy" />
-    <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-0f62fe?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite" />
-  </p>
+  <img src="assets/header-v2.svg" width="100%" alt="banner">
   
   <p>
-    Contour v2.0 (Kinetic Azure Expansion) scales our browser-based subject typography engine into a fully animated video typesetting studio. Wrap lyrics tightly around moving subject curves completely offline inside a browser sandbox.
+     <b>Parallel-Seeking Extraction<b>: Spawns 3 parallel offscreen video elements to seek and grab raw frame ImageData concurrently in under 2 seconds. Video elements are cleared immediately to free up browser resources.
   </p>
 </div>
 
@@ -29,7 +21,6 @@
 
 ---
 
-## ⚡ Key Highlights of the v2.0 Azure Expansion
 
 ### 🎭 Concurrency-Safe Video Subject Isolation
 * **Parallel-Seeking Extraction**: Spawns 3 parallel offscreen video elements to seek and grab raw frame `ImageData` concurrently in under 2 seconds. Video elements are cleared immediately to free up browser resources.
@@ -125,7 +116,7 @@ Contour uses advanced client-side WebAssembly compilers and local machine learni
 ---
 
 <div align="center" style="margin-top: 40px;">
-  <img src="assets/footer.svg" width="100%" alt="footer">
+  <img src="assets/footer-v2.svg" width="100%" alt="footer">
 </div>
 <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; text-align: center;">
   built by ANUJ with ❤️ while frank ocean's 'Novacane' played on repeat
