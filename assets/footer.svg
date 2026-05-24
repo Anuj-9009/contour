@@ -1,23 +1,66 @@
-<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="600" height="110" viewBox="0 0 600 110" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .dream-pulse {
+    .player-card {
+      fill: #080c14;
+      stroke: rgba(15, 98, 254, 0.25);
+      stroke-width: 1.5;
+      rx: 16px;
+    }
+    .wave-line {
       stroke: #0f62fe;
       stroke-width: 1.5;
       stroke-linecap: round;
-      animation: driftPulse 4s infinite ease-in-out alternate;
+      animation: waveDrift 4s infinite ease-in-out alternate;
     }
-    .dream-glow {
-      animation: glowPulse 2s infinite ease-in-out alternate;
+    .pulse-glow {
+      animation: glowSpot 2s infinite ease-in-out alternate;
     }
-    @keyframes driftPulse {
+    .signature-text {
+      font-family: 'Sora', 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #0f62fe;
+    }
+    .track-text {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      fill: #00f2fe;
+    }
+    .marquee {
+      animation: slideMarquee 15s linear infinite;
+    }
+    .heart {
+      fill: #ef4444;
+      animation: heartbeat 1.2s infinite alternate ease-in-out;
+      transform-origin: 228px 78px;
+    }
+    @keyframes waveDrift {
       0% { stroke-dasharray: 4 12; stroke-dashoffset: 0; }
       100% { stroke-dasharray: 12 4; stroke-dashoffset: 24; }
     }
-    @keyframes glowPulse {
-      0% { filter: drop-shadow(0 0 1px #0f62fe); opacity: 0.6; }
-      100% { filter: drop-shadow(0 0 6px #00f2fe); opacity: 1; }
+    @keyframes glowSpot {
+      0% { opacity: 0.5; filter: drop-shadow(0 0 1px #0f62fe); }
+      100% { opacity: 1; filter: drop-shadow(0 0 8px #00f2fe); fill: #00f2fe; }
+    }
+    @keyframes slideMarquee {
+      0% { transform: translate(0px, 0); }
+      100% { transform: translate(-330px, 0); }
+    }
+    @keyframes heartbeat {
+      0% { transform: scale(0.9); }
+      100% { transform: scale(1.1); filter: drop-shadow(0 0 3px #ef4444); }
     }
   </style>
-  <path class="dream-pulse" d="M10,20 Q30,5 50,20 T90,20 T130,20 T170,20" />
-  <circle class="dream-glow" cx="90" cy="20" r="4" fill="#00f2fe" />
+  <rect x="1" y="1" width="598" height="108" class="player-card" />
+  <circle cx="55" cy="55" r="40" fill="#0f62fe" opacity="0.08" filter="blur(20px)" />
+  <path class="wave-line" d="M15,55 Q35,25 55,55 T95,55" />
+  <circle class="pulse-glow" cx="55" cy="55" r="4" fill="#00f2fe" />
+  <svg x="120" y="24" width="360" height="24" viewBox="0 0 360 24" style="overflow: hidden;">
+    <g class="marquee">
+      <text x="0" y="16" class="track-text">Now Playing: "Novacane" — Frank Ocean   •   Now Playing: "Novacane" — Frank Ocean</text>
+    </g>
+  </svg>
+  <text x="120" y="78" class="signature-text">built by ANUJ with</text>
+  <path class="heart" d="M248,74 C247,72 244,72 243,73 C242,74 242,76 244,78 L248,82 L252,78 C254,76 254,74 253,73 C252,72 249,72 248,74 Z" />
+  <text x="261" y="78" class="signature-text">while frank ocean's "Novacane" played on repeat</text>
 </svg>

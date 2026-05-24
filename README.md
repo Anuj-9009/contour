@@ -81,11 +81,6 @@ Alternatively, you can connect your GitHub repository directly to Vercel via the
 
 ---
 
-<div align="center" style="background: radial-gradient(circle, rgba(15,98,254,0.1) 0%, transparent 80%); padding: 28px; border-radius: 20px;">
-  <!-- Dreaming Curve / Typography Flow (CSS SVG) -->
-  <img src="assets/footer.svg" width="180" alt="footer">
-  
-  <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; letter-spacing: 0.05em;">
-    built by ANUJ with ❤️ while frank ocean's "Novacane" played on repeat
-  </p>
+<div align="center" style="margin-top: 40px;">
+  <img src="././assets/footer.svg" width="100%" alt="footer">
 </div>
