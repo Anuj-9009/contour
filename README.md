@@ -1,43 +1,129 @@
-# <p align="center"><img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230f62fe'/%3E%3Cstop offset='100%25' stop-color='%2300f2fe'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='url(%23g)'/%3E%3Cpath d='M25 70C25 50 38 30 50 30C62 30 75 50 75 70' stroke='white' stroke-width='7' stroke-linecap='round' fill='none'/%3E%3Cpath d='M35 65C35 52 42.5 38 50 38C57.5 38 65 52 65 65' stroke='white' stroke-width='4' stroke-linecap='round' fill='none' opacity='0.6'/%3E%3Ccircle cx='50' cy='30' r='4' fill='white'/%3E%3C/svg%3E" width="100" height="100" alt="Contour Logo"/><br>C O N T O U R &nbsp; v2.0</p>
-
-<p align="center">
-  <strong>The Ultimate Client-Side Kinetic Video & Photo Typography Workspace</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly_%26_WebGPU-8b5cf6?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm/WebGPU AI"/>
-  <img src="https://img.shields.io/badge/Privacy-100%25_Offline_Sandbox-10b981?style=for-the-badge&logo=shield&logoColor=white" alt="100% Client-Side Privacy"/>
-  <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-61dafb?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite"/>
-  <a href="https://github.com/Anuj-9009/contour/tree/v1-classic" target="_blank">
-    <img src="https://img.shields.io/badge/Version_1.0-Archived_Branch-ff9800?style=for-the-badge&logo=git&logoColor=white" alt="Version 1.0 Branch"/>
-  </a>
-</p>
-
----
-
+<!-- Header Block -->
 <div align="center">
-  <h3>✨ Kinetic Canvas. 3D Subject Depth. Zero-Server Privacy. ✨</h3>
+  <br />
+  <!-- Glowing Animated Azure Banner (Pure Vector CSS SVG) -->
+  <svg width="100%" height="160" viewBox="0 0 800 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: #0b111e; border-radius: 24px; border: 1px solid rgba(15, 98, 254, 0.25);">
+    <style>
+      .text-title {
+        font-family: 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 44px;
+        fill: url(#azureGradient);
+        filter: drop-shadow(0px 10px 15px rgba(15, 98, 254, 0.35));
+      }
+      .text-subtitle {
+        font-family: 'Inter', system-ui, sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        fill: #3b82f6;
+        letter-spacing: 0.25em;
+      }
+      .glow-azure {
+        animation: floatAzure 6s ease-in-out infinite alternate;
+      }
+      @keyframes floatAzure {
+        0% { transform: translate(0px, 0px) scale(1); filter: blur(28px); opacity: 0.4; }
+        100% { transform: translate(25px, 10px) scale(1.15); filter: blur(35px); opacity: 0.6; }
+      }
+    </style>
+    <!-- Background Neon Blobs -->
+    <circle class="glow-azure" cx="240" cy="80" r="60" fill="#0f62fe" />
+    <circle class="glow-azure" cx="560" cy="80" r="50" fill="#00f2fe" style="animation-delay: -3s;" />
+    
+    <!-- Title Text -->
+    <text x="50%" y="80" dominant-baseline="middle" text-anchor="middle" class="text-title">C O N T O U R</text>
+    <text x="50%" y="120" dominant-baseline="middle" text-anchor="middle" class="text-subtitle">KINETIC VIDEO & TYPOGRAPHY WORKSPACE</text>
+    
+    <defs>
+      <linearGradient id="azureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#0f62fe" />
+        <stop offset="50%" stop-color="#00f2fe" />
+        <stop offset="100%" stop-color="#0f62fe" />
+      </linearGradient>
+    </defs>
+  </svg>
+
   <p>
-    <strong>Contour v2.0 (Kinetic Azure Expansion)</strong> scales our browser-based subject typography engine into a fully animated video typesetting studio. Transcribe vocals using client-side AI, sync text to background beats with a tapping console, and wrap lyrics tightly around moving subject curves. All rendering, speech-to-text, and video compiling runs <strong>100% locally in your browser sandbox</strong>.
+    <br />
+    <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly-0f62fe?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm" />
+    <img src="https://img.shields.io/badge/Privacy-100%25_Offline_Sandbox-00f2fe?style=for-the-badge&logo=shield&logoColor=white" alt="Client Privacy" />
+    <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-0f62fe?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite" />
   </p>
-  <br/>
+  
+  <p>
+    Contour v2.0 (Kinetic Azure Expansion) scales our browser-based subject typography engine into a fully animated video typesetting studio. Wrap lyrics tightly around moving subject curves completely offline inside a browser sandbox.
+  </p>
 </div>
+
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(15, 98, 254, 0), rgba(15, 98, 254, 0.4), rgba(15, 98, 254, 0));" />
+
+<!-- Kinetic Typography Wrapping Simulation (Pure CSS Vector SVG) -->
+<div align="center">
+  <h3>🌀 Interactive Subject-Contour Wrapping Grid</h3>
+  <br />
+  <svg width="640" height="150" viewBox="0 0 640 150" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: #0b111e; border-radius: 20px; border: 1px solid rgba(15,98,254,0.3); box-shadow: 0 10px 30px rgba(15,98,254,0.15);">
+    <style>
+      .subject-curve {
+        stroke: #0f62fe;
+        stroke-width: 2.5;
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        animation: drawCurve 3s forwards ease-in-out infinite alternate;
+      }
+      .kinetic-char {
+        font-family: 'Sora', sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        fill: #3b82f6;
+        opacity: 0.3;
+        animation: twinkleChar 2s infinite alternate ease-in-out;
+      }
+      @keyframes drawCurve {
+        to { stroke-dashoffset: 0; filter: drop-shadow(0 0 6px #00f2fe); }
+      }
+      @keyframes twinkleChar {
+        0% { opacity: 0.25; fill: #3b82f6; }
+        100% { opacity: 0.95; fill: #00f2fe; filter: drop-shadow(0 0 4px #00f2fe); }
+      }
+    </style>
+
+    <!-- Moving Subject Silhouette Mock -->
+    <path class="subject-curve" d="M 220,10 C 260,50 280,100 320,140" />
+    <path class="subject-curve" d="M 420,10 C 380,50 360,100 320,140" style="animation-delay: -1.5s;" />
+
+    <!-- Twinkling Typography Grid Wrapping Around curve -->
+    <text x="50" y="30" class="kinetic-char">K I N E T I C</text>
+    <text x="50" y="55" class="kinetic-char" style="animation-delay: -0.3s;">T Y P O G R A P H Y</text>
+    <text x="50" y="80" class="kinetic-char" style="animation-delay: -0.6s;">E N G I N E</text>
+    <text x="50" y="105" class="kinetic-char" style="animation-delay: -0.9s;">V 2 . 0</text>
+
+    <text x="450" y="30" class="kinetic-char" style="animation-delay: -0.2s;">S U B J E C T</text>
+    <text x="430" y="55" class="kinetic-char" style="animation-delay: -0.5s;">I S O L A T I O N</text>
+    <text x="440" y="80" class="kinetic-char" style="animation-delay: -0.8s;">C L I E N T</text>
+    <text x="460" y="105" class="kinetic-char" style="animation-delay: -1.1s;">S A N D B O X</text>
+
+    <!-- Core Sweep -->
+    <circle cx="320" cy="75" r="4" fill="#00f2fe" filter="drop-shadow(0 0 6px #00f2fe)" />
+    <text x="320" y="130" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9px" fill="rgba(59, 130, 246, 0.6)">BEAT-SYNCED FOREGROUND RENDERER ACTIVE</text>
+  </svg>
+</div>
+
+<br />
 
 ---
 
 ## ⚡ Key Highlights of the v2.0 Azure Expansion
 
-### 🎭 Concurrency-Safe Video subject Isolation
+### 🎭 Concurrency-Safe Video Subject Isolation
 * **Parallel-Seeking Extraction**: Spawns 3 parallel offscreen video elements to seek and grab raw frame `ImageData` concurrently in under 2 seconds. Video elements are cleared immediately to free up browser resources.
 * **Sequential AI Inference**: Loops through cached frames sequentially to evaluate subject silhouettes. This completely eliminates resource thrashing, memory fragmentation, and silent WebGPU thread locks in the shared ONNX Runtime context, guaranteeing 100% stability.
 * **Resilient CPU Fallback**: WebGPU and WebAssembly initialization are wrapped in `Promise.race` timeout races (7s for video, 8s for static photos). If the browser context fails or compiles silently freeze due to driver incompatibilities, the engine falls back to CPU processing seamlessly without interrupting the user.
 
 ### 🌀 Alphabetic In-Place Twinkling Matrix Backdrop
-* **Pixel-Perfect Exclusion Curves**: Replaces rectangular bounding slabs with dynamic canvas alpha mapping. The text layers are pre-rendered onto a hidden offscreen canvas to obtain a high-fidelity alpha map. Characters are sampled in a 9-point radial neighborhood to form a tight `8px` contour halo that perfectly wraps around individual letter shapes!
-* **In-Place Twinkling**: Refactors spatial math to avoid sliding horizontal movement. Every character stays locked in its grid coordinate and twinkles independently at high speed.
-* **Alphabet-Only**: Restricted character sets strictly to upper and lowercase letters (`A-Z`, `a-z`) for a highly polished editorial aesthetic.
+* **Pixel-Perfect Exclusion Curves**: Replaces rectangular bounding slabs with dynamic canvas alpha mapping. Text layers are pre-rendered onto a hidden offscreen canvas to obtain a high-fidelity alpha map, sampling characters in a 9-point radial neighborhood to form a tight `8px` contour halo.
+* **In-Place Twinkling**: Refactors spatial math to lock characters in their grid coordinates and twinkle independently at high speed, keeping character sets restricted to upper/lowercase `A-Z` for a polished aesthetic.
 
-### 🎤 Timeline & Speech-to-Text syncing Console
+### 🎤 Timeline & Speech-to-Text Syncing Console
 * **Offline AI Transcribing**: Integrates local `Transformers.js` Whisper-Tiny ASR. Resamples uploaded audio tracks to 16kHz mono Float32 PCM inside the browser, and transcribes timestamps completely offline.
 * **Tactile Spacebar Beat Tapper**: Paste plain text and tap your spacebar to stamp current millisecond timing offsets dynamically during playback.
 * **LRC Timing File Ingestion**: Features an upgraded, BOM-safe parser that handles UTF-8 Byte Order Marks, variable millisecond padded brackets (`[mm:ss.xx]`, `[mm:ss.xxx]`), and supports empty lines to clear out active lyrics during instrumental breaks.
@@ -47,9 +133,7 @@
 
 ---
 
-## 📊 Dual-Mode Ingestion Pipeline Architecture
-
-Our typesetter combines local WebAssembly machine learning with custom row-fitting greedy typesetting algorithms to keep all processes 100% client-side:
+## 📊 Ingestion Pipeline Architecture
 
 ```mermaid
 flowchart TD
@@ -94,29 +178,18 @@ flowchart TD
 
 ## 💻 Local Development Setup
 
-Clone the project and start creating in less than a minute!
-
 ```bash
-# 1. Clone this repository
-git clone https://github.com/Anuj-9009/contour.git
-
-# 2. Navigate into the project folder
-cd contour
-
-# 3. Install NPM dependencies
+# 1. Install NPM dependencies
 npm install
 
-# 4. Launch Vite development server
+# 2. Launch Vite development server
 npm run dev
 ```
-
 Open **[http://localhost:5173](http://localhost:5173)** in your browser!
 
 ---
 
 ## 🗂️ Version 1.0 Preservation (Classic Photo Mode)
-
-We have fully archived the original, plain-photo **Version 1.0** release of Contour to make sure it is completely safe and accessible. You can access or branch from the classic photo edition at any time via:
 
 * **GitHub Branch**: [`v1-classic`](https://github.com/Anuj-9009/contour/tree/v1-classic)
 * **GitHub Release Tag**: [`v1.0.0`](https://github.com/Anuj-9009/contour/releases/tag/v1.0.0)
@@ -128,20 +201,14 @@ git checkout v1-classic
 
 ---
 
-## 💡 Credit & Deep Inspiration: Pretext
-
-Contour's custom row-fitting greedy typography wrapped layouts were heavily inspired by the pioneering typesetting logic in the [**`@chenglou/pretext`**](https://github.com/chenglou/pretext) repository.
-
-Pretext proved that browser-native editorial wrapping around complex subject contours is possible by scanning alpha boundaries and using custom, greedy mathematical line-breaking models. Contour builds upon this brilliant layout model, extending it for dynamic timeline synchronizations, 3D compositing overlays, in-place matrix warp grids, and client-side neural network acceleration. We owe a huge debt of gratitude to the original Pretext codebase for paving the way!
-
----
-
 ## 🛡️ Privacy Sandboxing Guarantee
 
-Contour uses advanced client-side WebAssembly compilers and local machine learning models (Whisper-ASR, Isnet-Segmentation) running in the secure offline browser sandbox. No pictures, videos, or audio tracks are ever uploaded or transmitted to external servers. Your creative assets remain **100% private, secure, and under your control**.
+Contour uses advanced client-side WebAssembly compilers and local machine learning models running in the secure offline browser sandbox. No pictures, videos, or audio tracks are ever uploaded or transmitted to external servers. Your creative assets remain **100% private, secure, and under your control**.
 
 ---
 
-<p align="center">
-  Made with 🤍 for designers and developers alike.
-</p>
+<div align="center" style="background: radial-gradient(circle, rgba(15,98,254,0.08) 0%, transparent 80%); padding: 24px; border-radius: 16px;">
+  <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0;">
+    built by anuj with love and nicotine
+  </p>
+</div>
