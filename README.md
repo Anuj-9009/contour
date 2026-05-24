@@ -2,7 +2,7 @@
 <div align="center">
   <br />
   <!-- Glowing Animated Azure Banner (Pure Vector CSS SVG) -->
-  <img src="./assets/header.svg" width="100%" alt="banner">
+  <img src="assets/header.svg" width="100%" alt="banner">
 
   <p>
     <br />
@@ -125,5 +125,8 @@ Contour uses advanced client-side WebAssembly compilers and local machine learni
 ---
 
 <div align="center" style="margin-top: 40px;">
-  <img src="././assets/footer.svg" width="100%" alt="footer">
+  <img src="assets/footer.svg" width="100%" alt="footer">
 </div>
+<p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; text-align: center;">
+  built by ANUJ with ❤️ while frank ocean's 'Novacane' played on repeat
+</p>

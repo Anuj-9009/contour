@@ -1,40 +1,44 @@
-<svg width="800" height="160" viewBox="0 0 800 160" fill="none" xmlns="http://www.w3.org/2000/svg" style="background: #0b111e; border-radius: 24px; border: 1px solid rgba(15, 98, 254, 0.25);">
-    <style>
-      .text-title {
-        font-family: 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
-        font-weight: 800;
-        font-size: 44px;
-        fill: url(#azureGradient);
-        filter: drop-shadow(0px 10px 15px rgba(15, 98, 254, 0.35));
-      }
-      .text-subtitle {
-        font-family: 'Inter', system-ui, sans-serif;
-        font-weight: 500;
-        font-size: 13px;
-        fill: #3b82f6;
-        letter-spacing: 0.25em;
-      }
-      .glow-azure {
-        animation: floatAzure 6s ease-in-out infinite alternate;
-      }
-      @keyframes floatAzure {
-        0% { transform: translate(0px, 0px) scale(1); filter: blur(28px); opacity: 0.4; }
-        100% { transform: translate(25px, 10px) scale(1.15); filter: blur(35px); opacity: 0.6; }
-      }
-    </style>
-    <!-- Background Neon Blobs -->
-    <circle class="glow-azure" cx="240" cy="80" r="60" fill="#0f62fe" />
-    <circle class="glow-azure" cx="560" cy="80" r="50" fill="#00f2fe" style="animation-delay: -3s;" />
-    
-    <!-- Title Text -->
-    <text x="50%" y="80" dominant-baseline="middle" text-anchor="middle" class="text-title">C O N T O U R</text>
-    <text x="50%" y="120" dominant-baseline="middle" text-anchor="middle" class="text-subtitle">KINETIC VIDEO & TYPOGRAPHY WORKSPACE</text>
-    
-    <defs>
-      <linearGradient id="azureGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#0f62fe" />
-        <stop offset="50%" stop-color="#00f2fe" />
-        <stop offset="100%" stop-color="#0f62fe" />
-      </linearGradient>
-    </defs>
-  </svg>
+<svg width="800" height="160" viewBox="0 0 800 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text-title {
+      font-family: 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: url(#headerGrad);
+      filter: drop-shadow(0px 8px 16px rgba(15, 98, 254, 0.3));
+      letter-spacing: 0.08em;
+    }
+    .text-subtitle {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #ffffff;
+      opacity: 0.65;
+      letter-spacing: 0.16em;
+    }
+    .glow-blob {
+      animation: floatBlob 7s ease-in-out infinite alternate;
+    }
+    @keyframes floatBlob {
+      0% { transform: translate(0px, 0px) scale(1); filter: blur(35px); opacity: 0.35; }
+      100% { transform: translate(30px, -15px) scale(1.18); filter: blur(45px); opacity: 0.6; }
+    }
+  </style>
+  <rect width="800" height="160" fill="#050a14" rx="16" />
+  
+  <!-- Background Blur Decorative Blobs -->
+  <circle class="glow-blob" cx="190" cy="80" r="75" fill="#00f2fe" />
+  <circle class="glow-blob" cx="610" cy="90" r="65" fill="#0f62fe" style="animation-delay: -3.5s;" />
+  
+  <!-- Title Text -->
+  <text x="50%" y="78" dominant-baseline="middle" text-anchor="middle" class="text-title">C O N T O U R</text>
+  <text x="50%" y="122" dominant-baseline="middle" text-anchor="middle" class="text-subtitle">KINETIC TYPOGRAPHY & VIDEO TYPESETTING STUDIO</text>
+  
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f62fe" />
+      <stop offset="50%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#0f62fe" />
+    </linearGradient>
+  </defs>
+</svg>
