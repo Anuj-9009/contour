@@ -1,21 +1,18 @@
-<!-- Header Block -->
-<div align="center">
-  <br />
-  <img src="assets/header-v2.svg" width="100%" alt="banner">
-  
-  <p>
-    Contour v1-classic is a browser-based creative text layout tool that allows you to flow text beautifully around visual subjects completely offline using a local AI sandbox.
-  </p>
-</div>
+# Contour v1-classic 🌀🖋️
 
-<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(15, 98, 254, 0), rgba(15, 98, 254, 0.4), rgba(15, 98, 254, 0));" />
+<p>
+  <img src="https://img.shields.io/badge/AI_Inference-Local_WebAssembly-0f62fe?style=for-the-badge&logo=webassembly&logoColor=white" alt="Local Wasm" />
+  <img src="https://img.shields.io/badge/Privacy-100%25_Offline_Sandbox-00f2fe?style=for-the-badge&logo=shield&logoColor=white" alt="Client Privacy" />
+  <img src="https://img.shields.io/badge/Framework-React_18_+_Vite-0f62fe?style=for-the-badge&logo=react&logoColor=black" alt="React + Vite" />
+</p>
 
-<br />
+Contour v1-classic is a browser-based creative text layout tool that allows you to flow text beautifully around visual subjects completely offline using a local AI sandbox.
 
 > Contour brings magazine-style text flow to the web. Upload any image with a clear subject, type your text, and watch it automatically wrap around the silhouette—all powered by a local AI model running completely privately in your browser.
 
 ---
 
+## ✨ Features
 
 - **🧠 Local AI Subject Detection:** Powered by [`@imgly/background-removal`](https://github.com/imgly/background-removal-js), processing happens entirely on your device using WebAssembly.
 - **🖋️ Custom Greedy Line Breaker:** Wraps text line-by-line tightly around organic subject bounds.
@@ -24,12 +21,16 @@
 - **📱 Instagram-Ready Exports:** Perfect presets for Square (1:1), Portrait (4:5), and Story (9:16).
 - **🔒 100% Private:** No backend. No data leaves the browser.
 
+---
+
 ## 🛠️ Tech Stack
 
 - **Framework:** React 18 + TypeScript + Vite
 - **AI/ML:** ONNX + WebAssembly (via imgly)
 - **Styling:** Custom CSS Custom Properties
 - **Rendering:** HTML5 Canvas Compositor
+
+---
 
 ## 🚀 How It Works
 
@@ -39,6 +40,8 @@
 4. **Layout:** A greedy text-breaking algorithm measures fonts to fit words into the remaining horizontal space.
 5. **Render:** Background → Text → Foreground Subject (optional) are layered onto the canvas.
 
+---
+
 ## 💻 Running Locally
 
 ### Prerequisites
@@ -47,8 +50,8 @@
 ### Setup
 
 ```bash
-# Clone the repository (if you haven't already)
-git clone <your-repo-url>
+# Clone the repository
+git clone https://github.com/Anuj-9009/contour.git
 cd contour
 
 # Install dependencies
@@ -59,23 +62,6 @@ npm run dev
 ```
 
 Visit `http://localhost:5173` to view the app!
-
-## 🌍 Deployment
-
-### Vercel (Recommended)
-
-Contour is a purely static client-side app, making it perfect for Vercel.
-
-1. **Install the Vercel CLI:**
-   ```bash
-   npm i -g vercel
-   ```
-2. **Deploy:**
-   ```bash
-   vercel --prod
-   ```
-
-Alternatively, you can connect your GitHub repository directly to Vercel via their web dashboard for automatic deployments.
 
 ---
 
