@@ -207,8 +207,34 @@ Contour uses advanced client-side WebAssembly compilers and local machine learni
 
 ---
 
-<div align="center" style="background: radial-gradient(circle, rgba(15,98,254,0.08) 0%, transparent 80%); padding: 24px; border-radius: 16px;">
-  <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0;">
-    built by anuj with love and nicotine
+<div align="center" style="background: radial-gradient(circle, rgba(15,98,254,0.1) 0%, transparent 80%); padding: 28px; border-radius: 20px;">
+  <!-- Dreaming Curve / Typography Flow (CSS SVG) -->
+  <svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 8px;">
+    <style>
+      .dream-pulse {
+        stroke: #0f62fe;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        animation: driftPulse 4s infinite ease-in-out alternate;
+      }
+      .dream-glow {
+        animation: glowPulse 2s infinite ease-in-out alternate;
+      }
+      @keyframes driftPulse {
+        0% { stroke-dasharray: 4 12; stroke-dashoffset: 0; }
+        100% { stroke-dasharray: 12 4; stroke-dashoffset: 24; }
+      }
+      @keyframes glowPulse {
+        0% { filter: drop-shadow(0 0 1px #0f62fe); opacity: 0.6; }
+        100% { filter: drop-shadow(0 0 6px #00f2fe); opacity: 1; }
+      }
+    </style>
+    <!-- Dreamy Waveform Path -->
+    <path class="dream-pulse" d="M10,20 Q30,5 50,20 T90,20 T130,20 T170,20" />
+    <circle class="dream-glow" cx="90" cy="20" r="4" fill="#00f2fe" />
+  </svg>
+  
+  <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; letter-spacing: 0.05em;">
+    built by anuj with ❤️ while frank ocean's "Novacane" played on repeat
   </p>
 </div>
