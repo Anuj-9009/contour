@@ -129,6 +129,6 @@ Contour uses advanced client-side WebAssembly compilers and local machine learni
   <img src="assets/footer.svg" width="180" alt="footer">
   
   <p style="font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 600; color: #0f62fe; margin: 0; letter-spacing: 0.05em;">
-    built by anuj with ❤️ while frank ocean's "Novacane" played on repeat
+    built by ANUJ with ❤️ while frank ocean's "Novacane" played on repeat
   </p>
 </div>
